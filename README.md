@@ -19,7 +19,7 @@ The Danesfield App is a web application for running the [Danesfield](https://git
 1. Update `base` of the `miniconda` environment
 
 ```shell
-conda update -all
+conda upgrade --all
 ```
 
 2. Create, activate new `danesfield` virtual environment
