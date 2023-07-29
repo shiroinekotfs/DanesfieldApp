@@ -21,6 +21,8 @@ npm install -g yarn
 yarn --cwd client/ --frozen-lockfile
 yarn --cwd client/ build
 
+pip install 'shapely<2'
+
 # Run girder build
 girder build
 
