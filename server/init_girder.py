@@ -8,7 +8,7 @@ from girder.exceptions import ValidationException
 cherrypy.config["database"]["uri"] = os.getenv("GIRDER_MONGO_URI", "localhost:27017")
 
 
-ADMIN_USER = os.getenv("GIRDER_ADMIN_USER", "admin") # Logon is admin
+ADMIN_USER = os.getenv("GIRDER_ADMIN_USER", "administrator") # Logon is admin
 ADMIN_PASS = os.getenv("GIRDER_ADMIN_PASS", "1234") # Password is 1234
 
 
@@ -19,7 +19,7 @@ def createInitialUser():
             ADMIN_PASS,
             ADMIN_USER,
             ADMIN_USER,
-            "admin@admin.com",
+            "administrator@localhost",
             admin=True,
             public=True,
         )
