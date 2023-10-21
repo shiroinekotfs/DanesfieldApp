@@ -1,6 +1,6 @@
 # Danesfield App
 
-The Danesfield App is a web application for running the [Danesfield](https://github.com/takinekotfs/danesfield) algorithms and visualizing results.  Danesfield addresses the algorithmic challenges of the IARPA CORE3D program by reconstructing semantically meaningful 3D models of buildings and other man-made structures from satellite imagery.
+The Danesfield App is a web application for running the [Danesfield](https://github.com/shiroinekotfs/danesfield) algorithms and visualizing results.  Danesfield addresses the algorithmic challenges of the IARPA CORE3D program by reconstructing semantically meaningful 3D models of buildings and other man-made structures from satellite imagery.
 
 ## Video demo
 
@@ -28,10 +28,10 @@ conda upgrade --all
 chmod +x conda/install.sh && conda/install.sh
 ```
 
-2. Pulling Danesfield docker image from Docker Hub. This image is being maintained by @takinekotfs
+2. Pulling Danesfield docker image from Docker Hub. This image is being maintained by @shiroinekotfs
 
 ```shell
-docker pull systakineko/danesfield:linux-amd64
+docker pull sysshiroineko/danesfield:linux-amd64
 ```
 
 3. Install `girder` and its dependencies
