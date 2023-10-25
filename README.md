@@ -31,7 +31,7 @@ chmod +x conda/install.sh && conda/install.sh
 2. Pulling Danesfield docker image from Docker Hub. This image is being maintained by @shiroinekotfs
 
 ```shell
-docker pull sysshiroineko/danesfield:linux-amd64
+docker pull shiroinekotfs/danesfield:linux-amd64
 ```
 
 3. Install `girder` and its dependencies
